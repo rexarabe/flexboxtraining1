@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.cardholder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+    transition: 0.3s;
+    font-family: "Fira Code Retina";
+    background-image: url("../space.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    border: thick double midnightblue;
+    border-radius: 5%;
+}
+.image img{
+    display: flex;
+    justify-content: space-around;
+    height: 15em;
+    border-radius: 5%;
+}
+.Name{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    display:flex;
+    justify-content: center;
+}
+
